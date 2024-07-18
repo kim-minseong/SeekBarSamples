@@ -9,5 +9,5 @@ There is a catalog showcasing various use cases by combining different modifiers
 
 | Music Player | Video Player |
 | ------------ | ------------ |
-| <img src="SeekBarSample/Resources/apple-music.gif"> |  <img src="SeekBarSample/Resources/youtube.gif" height="450">
+| <img src="SeekBarSample/Resources/apple-music.gif"> |  <img src="SeekBarSample/Resources/youtube.gif" height="400">
 
