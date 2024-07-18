@@ -10,6 +10,7 @@
 		67148FC82C494DE00065EE83 /* SeekBar in Frameworks */ = {isa = PBXBuildFile; productRef = 67148FC72C494DE00065EE83 /* SeekBar */; };
 		67148FCB2C494FC30065EE83 /* youtube.gif in Resources */ = {isa = PBXBuildFile; fileRef = 67148FC92C494FC30065EE83 /* youtube.gif */; };
 		67148FCC2C494FC30065EE83 /* apple-music.gif in Resources */ = {isa = PBXBuildFile; fileRef = 67148FCA2C494FC30065EE83 /* apple-music.gif */; };
+		67159A982C495B40006D46C7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 67159A972C495B40006D46C7 /* LICENSE */; };
 		677A1B8B2C48EA1700053677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677A1B8A2C48EA1700053677 /* AppDelegate.swift */; };
 		677A1B8D2C48EAEB00053677 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677A1B8C2C48EAEB00053677 /* VideoPlayer.swift */; };
 		677A1B8F2C48EB6200053677 /* VideoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677A1B8E2C48EB6200053677 /* VideoStore.swift */; };
@@ -23,11 +24,13 @@
 		67BCF1362C46049E005985F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCF1352C46049E005985F1 /* ContentView.swift */; };
 		67BCF1382C46049F005985F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BCF1372C46049F005985F1 /* Assets.xcassets */; };
 		67BCF13B2C46049F005985F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BCF13A2C46049F005985F1 /* Preview Assets.xcassets */; };
+		67EBB87C2C49586900C14EEA /* ACKNOWLEDGMENTS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 67EBB87B2C49586900C14EEA /* ACKNOWLEDGMENTS.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		67148FC92C494FC30065EE83 /* youtube.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = youtube.gif; sourceTree = "<group>"; };
 		67148FCA2C494FC30065EE83 /* apple-music.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "apple-music.gif"; sourceTree = "<group>"; };
+		67159A972C495B40006D46C7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		677A1B8A2C48EA1700053677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		677A1B8C2C48EAEB00053677 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 		677A1B8E2C48EB6200053677 /* VideoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStore.swift; sourceTree = "<group>"; };
@@ -43,6 +46,7 @@
 		67BCF1352C46049E005985F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67BCF1372C46049F005985F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67BCF13A2C46049F005985F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67EBB87B2C49586900C14EEA /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 		67BCF1272C46049E005985F1 = {
 			isa = PBXGroup;
 			children = (
+				67EBB87A2C49584100C14EEA /* LICENSE */,
 				67BCF1322C46049E005985F1 /* SeekBarSample */,
 				67BCF1312C46049E005985F1 /* Products */,
 			);
@@ -150,6 +155,16 @@
 				67BCF13A2C46049F005985F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67EBB87A2C49584100C14EEA /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				67159A972C495B40006D46C7 /* LICENSE */,
+				67EBB87B2C49586900C14EEA /* ACKNOWLEDGMENTS.txt */,
+			);
+			name = LICENSE;
+			path = SeekBarSample/LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +234,8 @@
 				67148FCB2C494FC30065EE83 /* youtube.gif in Resources */,
 				679373652C47F3BD00265138 /* FindingHappiness.mp3 in Resources */,
 				67148FCC2C494FC30065EE83 /* apple-music.gif in Resources */,
+				67159A982C495B40006D46C7 /* LICENSE in Resources */,
+				67EBB87C2C49586900C14EEA /* ACKNOWLEDGMENTS.txt in Resources */,
 				67BCF13B2C46049F005985F1 /* Preview Assets.xcassets in Resources */,
 				67BCF1382C46049F005985F1 /* Assets.xcassets in Resources */,
 			);
