@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67148FC82C494DE00065EE83 /* SeekBar in Frameworks */ = {isa = PBXBuildFile; productRef = 67148FC72C494DE00065EE83 /* SeekBar */; };
+		67148FCB2C494FC30065EE83 /* youtube.gif in Resources */ = {isa = PBXBuildFile; fileRef = 67148FC92C494FC30065EE83 /* youtube.gif */; };
+		67148FCC2C494FC30065EE83 /* apple-music.gif in Resources */ = {isa = PBXBuildFile; fileRef = 67148FCA2C494FC30065EE83 /* apple-music.gif */; };
+		677A1B8B2C48EA1700053677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677A1B8A2C48EA1700053677 /* AppDelegate.swift */; };
+		677A1B8D2C48EAEB00053677 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677A1B8C2C48EAEB00053677 /* VideoPlayer.swift */; };
+		677A1B8F2C48EB6200053677 /* VideoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677A1B8E2C48EB6200053677 /* VideoStore.swift */; };
+		677A1B962C49262C00053677 /* Double+toTimecodeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677A1B952C49262C00053677 /* Double+toTimecodeString.swift */; };
+		679373622C47CCDC00265138 /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679373612C47CCDC00265138 /* MusicPlayerView.swift */; };
+		679373652C47F3BD00265138 /* FindingHappiness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 679373642C47F3BD00265138 /* FindingHappiness.mp3 */; };
+		679373672C47F3E100265138 /* MusicStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679373662C47F3E100265138 /* MusicStore.swift */; };
+		67A9E7782C46103F0033315F /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A9E7772C46103F0033315F /* VideoPlayerView.swift */; };
+		67A9E77C2C4610570033315F /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A9E77B2C4610570033315F /* CatalogView.swift */; };
+		67BCF1342C46049E005985F1 /* SeekBarSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCF1332C46049E005985F1 /* SeekBarSampleApp.swift */; };
+		67BCF1362C46049E005985F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCF1352C46049E005985F1 /* ContentView.swift */; };
+		67BCF1382C46049F005985F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BCF1372C46049F005985F1 /* Assets.xcassets */; };
+		67BCF13B2C46049F005985F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BCF13A2C46049F005985F1 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67148FC92C494FC30065EE83 /* youtube.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = youtube.gif; sourceTree = "<group>"; };
+		67148FCA2C494FC30065EE83 /* apple-music.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "apple-music.gif"; sourceTree = "<group>"; };
+		677A1B8A2C48EA1700053677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		677A1B8C2C48EAEB00053677 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		677A1B8E2C48EB6200053677 /* VideoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStore.swift; sourceTree = "<group>"; };
+		677A1B922C48EE2700053677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		677A1B952C49262C00053677 /* Double+toTimecodeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+toTimecodeString.swift"; sourceTree = "<group>"; };
+		679373612C47CCDC00265138 /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
+		679373642C47F3BD00265138 /* FindingHappiness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FindingHappiness.mp3; sourceTree = "<group>"; };
+		679373662C47F3E100265138 /* MusicStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicStore.swift; sourceTree = "<group>"; };
+		67A9E7772C46103F0033315F /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		67A9E77B2C4610570033315F /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		67BCF1302C46049E005985F1 /* SeekBarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeekBarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BCF1332C46049E005985F1 /* SeekBarSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekBarSampleApp.swift; sourceTree = "<group>"; };
+		67BCF1352C46049E005985F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67BCF1372C46049F005985F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67BCF13A2C46049F005985F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67BCF12D2C46049E005985F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67148FC82C494DE00065EE83 /* SeekBar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		677A1B932C48EE3D00053677 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				677A1B922C48EE2700053677 /* Info.plist */,
+				67BCF1372C46049F005985F1 /* Assets.xcassets */,
+				67BCF1392C46049F005985F1 /* Preview Content */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		677A1B942C4925FE00053677 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				677A1B952C49262C00053677 /* Double+toTimecodeString.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		679373632C47F39400265138 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67148FCA2C494FC30065EE83 /* apple-music.gif */,
+				67148FC92C494FC30065EE83 /* youtube.gif */,
+				679373642C47F3BD00265138 /* FindingHappiness.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		67A9E7742C460FDB0033315F /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				67A9E77B2C4610570033315F /* CatalogView.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		67A9E7752C460FE70033315F /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				677A1B8E2C48EB6200053677 /* VideoStore.swift */,
+				67A9E7772C46103F0033315F /* VideoPlayerView.swift */,
+				677A1B8C2C48EAEB00053677 /* VideoPlayer.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		67A9E7762C460FEF0033315F /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				679373662C47F3E100265138 /* MusicStore.swift */,
+				679373612C47CCDC00265138 /* MusicPlayerView.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		67BCF1272C46049E005985F1 = {
+			isa = PBXGroup;
+			children = (
+				67BCF1322C46049E005985F1 /* SeekBarSample */,
+				67BCF1312C46049E005985F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67BCF1312C46049E005985F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67BCF1302C46049E005985F1 /* SeekBarSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67BCF1322C46049E005985F1 /* SeekBarSample */ = {
+			isa = PBXGroup;
+			children = (
+				677A1B8A2C48EA1700053677 /* AppDelegate.swift */,
+				67BCF1332C46049E005985F1 /* SeekBarSampleApp.swift */,
+				67BCF1352C46049E005985F1 /* ContentView.swift */,
+				677A1B942C4925FE00053677 /* Common */,
+				67A9E7742C460FDB0033315F /* Catalog */,
+				67A9E7752C460FE70033315F /* Video */,
+				67A9E7762C460FEF0033315F /* Music */,
+				679373632C47F39400265138 /* Resources */,
+				677A1B932C48EE3D00053677 /* Supporting Files */,
+			);
+			path = SeekBarSample;
+			sourceTree = "<group>";
+		};
+		67BCF1392C46049F005985F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67BCF13A2C46049F005985F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67BCF12F2C46049E005985F1 /* SeekBarSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BCF13E2C46049F005985F1 /* Build configuration list for PBXNativeTarget "SeekBarSample" */;
+			buildPhases = (
+				67BCF12C2C46049E005985F1 /* Sources */,
+				67BCF12D2C46049E005985F1 /* Frameworks */,
+				67BCF12E2C46049E005985F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeekBarSample;
+			packageProductDependencies = (
+				67148FC72C494DE00065EE83 /* SeekBar */,
+			);
+			productName = SeekBarSample;
+			productReference = 67BCF1302C46049E005985F1 /* SeekBarSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67BCF1282C46049E005985F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					67BCF12F2C46049E005985F1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 67BCF12B2C46049E005985F1 /* Build configuration list for PBXProject "SeekBarSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67BCF1272C46049E005985F1;
+			packageReferences = (
+				67148FC62C494DE00065EE83 /* XCRemoteSwiftPackageReference "SeekBar" */,
+			);
+			productRefGroup = 67BCF1312C46049E005985F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67BCF12F2C46049E005985F1 /* SeekBarSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67BCF12E2C46049E005985F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67148FCB2C494FC30065EE83 /* youtube.gif in Resources */,
+				679373652C47F3BD00265138 /* FindingHappiness.mp3 in Resources */,
+				67148FCC2C494FC30065EE83 /* apple-music.gif in Resources */,
+				67BCF13B2C46049F005985F1 /* Preview Assets.xcassets in Resources */,
+				67BCF1382C46049F005985F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67BCF12C2C46049E005985F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677A1B8D2C48EAEB00053677 /* VideoPlayer.swift in Sources */,
+				679373672C47F3E100265138 /* MusicStore.swift in Sources */,
+				67A9E7782C46103F0033315F /* VideoPlayerView.swift in Sources */,
+				67BCF1362C46049E005985F1 /* ContentView.swift in Sources */,
+				677A1B962C49262C00053677 /* Double+toTimecodeString.swift in Sources */,
+				679373622C47CCDC00265138 /* MusicPlayerView.swift in Sources */,
+				677A1B8F2C48EB6200053677 /* VideoStore.swift in Sources */,
+				677A1B8B2C48EA1700053677 /* AppDelegate.swift in Sources */,
+				67BCF1342C46049E005985F1 /* SeekBarSampleApp.swift in Sources */,
+				67A9E77C2C4610570033315F /* CatalogView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		67BCF13C2C46049F005985F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67BCF13D2C46049F005985F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67BCF13F2C46049F005985F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeekBarSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UM79FQ632;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeekBarSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mskim.samples.SeekBarSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67BCF1402C46049F005985F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeekBarSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UM79FQ632;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeekBarSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mskim.samples.SeekBarSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67BCF12B2C46049E005985F1 /* Build configuration list for PBXProject "SeekBarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BCF13C2C46049F005985F1 /* Debug */,
+				67BCF13D2C46049F005985F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BCF13E2C46049F005985F1 /* Build configuration list for PBXNativeTarget "SeekBarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BCF13F2C46049F005985F1 /* Debug */,
+				67BCF1402C46049F005985F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		67148FC62C494DE00065EE83 /* XCRemoteSwiftPackageReference "SeekBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kim-minseong/SeekBar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67148FC72C494DE00065EE83 /* SeekBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67148FC62C494DE00065EE83 /* XCRemoteSwiftPackageReference "SeekBar" */;
+			productName = SeekBar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 67BCF1282C46049E005985F1 /* Project object */;
+}

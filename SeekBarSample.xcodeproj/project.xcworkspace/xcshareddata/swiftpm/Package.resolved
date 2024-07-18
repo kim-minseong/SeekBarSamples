@@ -1,0 +1,15 @@
+{
+  "originHash" : "dfe0517aa3e179f170ada9d800345d4c80865a53245a2bc881036c874786792f",
+  "pins" : [
+    {
+      "identity" : "seekbar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kim-minseong/SeekBar",
+      "state" : {
+        "revision" : "f411c11150aad25ba4a9df0548ff39215577a9cd",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
